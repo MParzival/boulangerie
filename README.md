@@ -7,4 +7,4 @@
 
 ## Installation du projet : 
 - git clone ou depuis un tag recuperer le fichier tar.gz
-- `composer install`
+- `composer install` (pour installer le fichier vendor)
