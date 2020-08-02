@@ -1,4 +1,4 @@
-### Boulangerie
+# Boulangerie
 
 ## Pré-requis : 
 - PHP 7.1
