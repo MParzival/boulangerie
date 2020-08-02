@@ -7,10 +7,13 @@
 - NPM 6.x.x (https://nodejs.org/en/download/)
 - YARN 1.x.x (https://yarnpkg.com/lang/en/docs/install/)
 - La tables sont en INNODB
+- Nom de la bdd boulangerie
 
 ## Installation du projet : 
 - git clone ou depuis un tag recuperer le fichier tar.gz
 - `composer install` (pour installer le fichier vendor)
+
+# A voir pour PHP-CS-FIXER
 
 ## PHP-CS-FIXER
 #### Commandes de base :
