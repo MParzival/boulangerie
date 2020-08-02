@@ -1,7 +1,7 @@
 # Boulangerie
 
 ## Pré-requis : 
-- PHP 7.1
+- PHP 7.4
 - COMPOSER (https://getcomposer.org/)
 - La tables sont en INNODB
 
