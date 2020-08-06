@@ -7,10 +7,13 @@ use App\Repository\ProduitRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * @Route("/produit")
+ **/
 class ProduitController extends AbstractController
 {
     /**
-     * @Route("/produit", name="produit")
+     * @Route("/", name="produit")
      */
     public function index(ProduitRepository $produitRepository)
     {
@@ -29,7 +32,6 @@ class ProduitController extends AbstractController
      * @return \Symfony\Component\HttpFoundation\Response
      */
     public function show(ProduitRepository $produitRepository,Produit $produit){
-
         return $this->render('produit/showProduit.html.twig',[
             'produit'=>$produit,
         ]);
