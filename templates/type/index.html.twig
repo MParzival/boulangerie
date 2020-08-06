@@ -4,6 +4,6 @@
 
 {% block body %}
     {% for type in types %}
-        <p>{{ type.label }}</p>
+        <p><a href="{{ path('type_show',{'id':type.id}) }}">{{ type.label }}</a></p>
     {% endfor %}
 {% endblock %}

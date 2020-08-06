@@ -4,7 +4,7 @@
 
 {% block body %}
     {% for produit in produits %}
-        <p>{{ produit.label }}  {{ produit.prix }}  </p>
-        <img src="{{ produit.imageProduit }}" style="height: 200px;width:200px;display: block">
+<a href="{{ path('produit_show',{'id':produit.id}) }}"> <p>{{ produit.label }}  {{ produit.prix }}  </p>
+    <img src="{{ produit.imageProduit }}" style="height: 200px;width:200px;display: block"></a>
     {% endfor %}
 {% endblock %}
