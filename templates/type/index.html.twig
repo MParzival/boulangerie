@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TypeController!{% endblock %}
+
+{% block body %}
+    {% for type in types %}
+        <p>{{ type.label }}</p>
+    {% endfor %}
+{% endblock %}
